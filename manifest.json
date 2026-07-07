@@ -1,0 +1,15 @@
+{
+  "name": "M3-Vibrant",
+  "description": "A fluid Material 3 design upgrade for Spicetify featuring adaptive tonal surfaces, shape-morphing controls, a floating volume bar, and high-contrast light/dark modes.",
+  "preview": "./assets/preview.png",
+  "readme": "README.md",
+  "usercss": "./theme/user.css",
+  "schemes": "./theme/color.ini",
+  "authors": [
+    {
+      "name": "Kenzx",
+      "url": "https://github.com/luoshenshi"
+    }
+  ],
+  "tags": ["Material", "Light", "Dark"]
+}
