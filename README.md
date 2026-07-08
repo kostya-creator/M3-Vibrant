@@ -60,13 +60,17 @@ git clone https://github.com/luoshenshi/M3-Vibrant.git
 **Linux / macOS**
 
 ```bash
-cp -r M3-Vibrant/theme/* ~/.config/spicetify/Themes/M3-Vibrant/
+mkdir -p ~/.config/spicetify/Themes/M3-Vibrant
+
+cp -R ./M3-Vibrant/theme/* ~/.config/spicetify/Themes/M3-Vibrant/
 ```
 
 **Windows (PowerShell)**
 
 ```powershell
-Copy-Item -Recurse M3-Vibrant/theme/* "$env:APPDATA\spicetify\Themes\M3-Vibrant"
+New-Item -Path "$env:APPDATA\spicetify\Themes\M3-Vibrant" -ItemType Directory -Force
+
+Copy-Item -Path ".\M3-Vibrant\theme\*" -Destination "$env:APPDATA\spicetify\Themes\M3-Vibrant\" -Recurse -Force
 ```
 
 3. **Apply the theme and choose your preferred color scheme.**
