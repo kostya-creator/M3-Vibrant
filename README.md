@@ -41,7 +41,7 @@ Ensure you have [Spicetify CLI](https://github.com/spicetify/spicetify-cli) inst
 
 1. Open **Spicetify Marketplace** from the Spotify sidebar.
 2. Navigate to the **Themes** tab.
-3. Search for **M3 Vibrant**.
+3. Search for **M3-Vibrant**.
 4. Click **Install**.
 5. Apply changes (if prompted) or restart Spotify.
 
@@ -55,24 +55,18 @@ Ensure you have [Spicetify CLI](https://github.com/spicetify/spicetify-cli) inst
 git clone https://github.com/luoshenshi/M3-Vibrant.git
 ```
 
-**One-line Windows (PowerShell) installation (skip Step 2)**
-
-```powershell
-git clone https://github.com/luoshenshi/M3-Vibrant.git "$env:APPDATA\spicetify\Themes\M3-Vibrant"
-```
-
 2. **Move the theme folder into your Spicetify Themes directory.**
 
 **Linux / macOS**
 
 ```bash
-cp -r M3-Vibrant ~/.config/spicetify/Themes/
+cp -r M3-Vibrant/theme/* ~/.config/spicetify/Themes/M3-Vibrant/
 ```
 
 **Windows (PowerShell)**
 
 ```powershell
-Copy-Item -Recurse M3-Vibrant "$env:APPDATA\spicetify\Themes\"
+Copy-Item -Recurse M3-Vibrant/theme/* "$env:APPDATA\spicetify\Themes\M3-Vibrant"
 ```
 
 3. **Apply the theme and choose your preferred color scheme.**
