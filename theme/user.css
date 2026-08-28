@@ -166,8 +166,10 @@ svg {
   transition: box-shadow var(--m3-duration-medium) var(--m3-easing-standard);
 }
 
-.main-topBar-background {
-  background-color: var(--m3-surface-container-low) !important;
+.main-topBar-background,
+.gaELPQ269mY6yQwB,
+.main-topBar-overlay {
+  background: var(--m3-surface-container-low) !important;
   transition: background-color var(--m3-duration-medium) ease;
 }
 
@@ -235,6 +237,14 @@ svg {
 
 .view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-imageWrapper {
   box-shadow: none !important;
+}
+
+/* the play button for the top suggested playlists and albums */
+.view-homeShortcutsGrid-shortcut
+  .view-homeShortcutsGrid-PlayButtonContainer
+  .view-homeShortcutsGrid-playButton {
+  opacity: 0;
+  box-shadow: 0px 0px 7px 0.2px rgba(var(--spice-rgb-player-icon), 0.1);
 }
 
 /* CONTROLS (BOTTOM SECTION) */
