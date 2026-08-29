@@ -154,6 +154,10 @@ svg {
   padding: var(--app-gap);
 }
 
+.Root__globalNav {
+ margin-bottom: 2.5px;
+}
+
 .Root__nav-bar,
 .Root__main-view,
 .Root__right-sidebar,
@@ -250,7 +254,8 @@ svg {
 /* CONTROLS (BOTTOM SECTION) */
 .Root__now-playing-bar {
   background: transparent !important;
-  margin-top: 4px;
+  margin-top: 1.9px;
+  padding: 0px;
 }
 
 .main-nowPlayingBar-container {
@@ -413,6 +418,17 @@ svg {
 }
 
 /* CONTROLS AND BUTTONS */
+
+.main-playButton-PlayButton .e-10810-button-primary__inner {
+  background-color: var(--spice-play-button);
+  border-radius: 100%;
+  transition: background-color var(--m3-duration-medium) ease;
+}
+
+.e-10810-button-primary__inner:hover {
+  background-color: var(--spice-play-button-hover);
+}
+
 .main-playPauseButton-button {
   background-color: var(--spice-button);
   color: var(--spice-main) !important;
