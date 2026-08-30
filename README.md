@@ -80,6 +80,20 @@ spicetify config current_theme M3-Vibrant color_scheme rose-dark
 spicetify apply
 ```
 
+## Recommendations
+
+For the best experience with this **THEME**, I recommend using the following snippets and extensions to further enhance its appearance and functionality.
+
+### Snippets
+
+- **Modern ScrollBar** — Optional
+- **Spinning CD Cover Art** — Optional
+- **Remove Top Gradient** — Optional, but highly recommended
+
+### Extensions
+
+- [**Volume Percentage (Historical)**](https://github.com/ohitstom/spicetify-extensions/tree/main/volumePercentage)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are always welcome!
