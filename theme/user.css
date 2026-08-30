@@ -155,7 +155,12 @@ svg {
 }
 
 .Root__globalNav {
- margin-bottom: 2.5px;
+  border-radius: 0 0 24px 24px;
+  margin-bottom: 2px;
+
+  box-shadow: var(--m3-elev-1);
+  border: 1px solid var(--m3-outline-variant);
+  transition: box-shadow var(--m3-duration-medium) var(--m3-easing-standard);
 }
 
 .Root__nav-bar,
@@ -237,6 +242,8 @@ svg {
   background: var(--spice-card);
 }
 
+
+
 .view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-imageWrapper {
   box-shadow: none !important;
 }
@@ -244,7 +251,7 @@ svg {
 /* CONTROLS (BOTTOM SECTION) */
 .Root__now-playing-bar {
   background: transparent !important;
-  margin-top: 1.9px;
+  margin-top: 2px;
   padding: 0px;
 }
 
@@ -264,7 +271,7 @@ svg {
 
 .main-nowPlayingBar-nowPlayingBar {
   display: grid !important;
-  grid-template-columns: 0.6fr 1.6fr 0.8fr !important;
+  grid-template-columns: 0.6fr 1.6fr 0.6fr !important;
   align-items: center !important;
   height: 100%;
   gap: 16px;
@@ -381,14 +388,21 @@ svg {
   justify-content: center;
   align-items: center;
   height: 24px;
-  padding-inline: 8px 12px;
+  padding-inline: 8px;
   display: flex;
   position: relative;
   background-color: rgba(var(--spice-rgb-button), 0.1);
-  color: var(--spice-button);
-  font-weight: 500;
 }
 
+.encore-text-body-small-bold {
+  color: var(--spice-subtext);
+  font-weight: 600;
+}
+
+.main-connectBar-icon {
+  max-width: 14px;
+  max-height: 14px;
+}
 /* RESPONSIVE DESIGN */
 @media (max-width: 950px) {
   .main-nowPlayingBar-nowPlayingBar {
