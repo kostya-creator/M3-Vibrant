@@ -88,7 +88,6 @@ For the best experience with this **THEME**, I recommend using the following sni
 
 - **Modern ScrollBar** — Optional
 - **Spinning CD Cover Art** — Optional
-- **Remove Top Gradient** — Optional, but highly recommended
 
 ### Extensions
 
