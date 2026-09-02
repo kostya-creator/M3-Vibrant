@@ -173,6 +173,14 @@ svg {
   transition: box-shadow var(--m3-duration-medium) var(--m3-easing-standard) !important;
 }
 
+.main-home-filterChipsSection {
+  background: var(--background-elevated-base) !important;
+}
+
+.main-home-filterChipsSection.fzMaM8folMIckYG2:after {
+  background: transparent !important;
+}
+
 .Root__nav-bar,
 .Root__main-view,
 .Root__right-sidebar,
@@ -253,8 +261,6 @@ svg {
 .search-searchCategory-carouselButton:hover {
   background: var(--spice-card) !important;
 }
-
-
 
 .view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-imageWrapper {
   box-shadow: none !important;
@@ -766,6 +772,32 @@ button[class*="filter"]:hover,
 
 .Z557o5iO1x0aSAXt:not(:hover):not(:focus-within) a {
   color: var(--spice-subtext) !important;
+}
+
+.wskqaMF_9vIdCfEN {
+  color: var(--spice-subtext) !important;
+}
+
+.e-10810-legacy-box--interactive.e-10810-legacy-box--contrasting:hover,
+.e-10810-legacy-box--interactive:hover:after {
+  background-color: rgba(
+    var(--spice-rgb-text),
+    var(--m3-state-hover)
+  ) !important;
+}
+
+.e-10810-legacy-box--tinted.e-10810-legacy-box--interactive:hover:after {
+  background-color: rgba(
+    var(--spice-rgb-text),
+    var(--m3-state-hover)
+  ) !important;
+}
+
+.e-10810-legacy-box--interactive {
+  --animation-speed: 100ms !important;
+  --animation-ease: 1s !important;
+  --bg-inset-change-press: -4px !important;
+  cursor: pointer;
 }
 
 /* VISUALIZER STYLING */
