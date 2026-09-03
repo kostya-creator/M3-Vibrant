@@ -683,6 +683,37 @@ button[class*="filter"]:hover,
   box-shadow: var(--m3-elev-4) !important;
 }
 
+.fuq9616CQ8Fhz6n6.yiy_EezkGycfPvS3
+  .main-nowPlayingView-canvasVisualEnhancement:before {
+  background: linear-gradient(
+    #121212d9 0%,
+    #12121200 30% 55%,
+    #121212cc 72%,
+    #00000000 90%
+  ) !important;
+}
+
+.main-nowPlayingView-canvasVisualEnhancement:before {
+  background: linear-gradient(
+    #121212d9 0%,
+    #12121200 30% 80%,
+    #121212cc 93.25%,
+    #00000000 100%
+  ) !important;
+}
+
+.main-nowPlayingView-canvasVisualEnhancement:after {
+  background: linear-gradient(
+    #121212a1 0%,
+    #12121287 30% 70%,
+    #00000000 95%
+  ) !important;
+}
+
+.pHNOePN5RT09utW9 .g3QSV3tq49ScV2jX {
+  box-shadow: 0px 6px 7px 0.2px rgba(var(--spice-rgb-player-icon), 0.1) !important;
+}
+
 #history-tab {
   border-radius: var(--m3-radius-small) !important;
 }
@@ -778,6 +809,10 @@ button[class*="filter"]:hover,
   color: var(--spice-subtext) !important;
 }
 
+.HFowbNOgNPgtZSE4 {
+  box-shadow: 0px 6px 7px 0.2px rgba(var(--spice-rgb-player-icon), 0.1) !important;
+}
+
 .e-10810-legacy-box--interactive.e-10810-legacy-box--contrasting:hover,
 .e-10810-legacy-box--interactive:hover:after {
   background-color: rgba(
@@ -797,7 +832,10 @@ button[class*="filter"]:hover,
   --animation-speed: 100ms !important;
   --animation-ease: 1s !important;
   --bg-inset-change-press: -4px !important;
-  cursor: pointer;
+}
+
+.x-entityImage-imageContainer {
+  box-shadow: none !important;
 }
 
 /* VISUALIZER STYLING */
