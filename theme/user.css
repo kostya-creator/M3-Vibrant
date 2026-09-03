@@ -742,10 +742,10 @@ button[class*="filter"]:hover,
   font-size: 60px !important;
   letter-spacing: 0.1px !important;
 
-  max-width: 700px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  max-width: 700px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
 }
 
 .main-entityHeader-metaData {
