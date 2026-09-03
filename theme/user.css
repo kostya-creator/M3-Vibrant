@@ -487,8 +487,24 @@ svg {
 }
 .jHqD4CkJSTwpZihD {
   background: var(--spice-card) !important;
+  padding: 12px !important;
+  border-radius: var(--section-border-radius);
 }
 
+.JO5DuTPjVVoBxIKN {
+  background-color: #00000060 !important;
+}
+
+.UaFGUZb384McvxOx {
+  background-color: var(--spice-highlight) !important;
+  color: var(--background-elevated-base) !important;
+}
+.EU1ylDKh7s2oMU0g {
+  background-color: transparent !important;
+}
+.VwcQJ4Zsf0JKD3Ls {
+  background-color: transparent !important;
+}
 .main-playPauseButton-button:active {
   transform: scale(0.96) !important;
 }
@@ -686,9 +702,9 @@ button[class*="filter"]:hover,
 .fuq9616CQ8Fhz6n6.yiy_EezkGycfPvS3
   .main-nowPlayingView-canvasVisualEnhancement:before {
   background: linear-gradient(
-    #121212d9 0%,
+    #12121200 0%,
     #12121200 30% 55%,
-    #121212cc 72%,
+    #12121200 72%,
     #00000000 90%
   ) !important;
 }
