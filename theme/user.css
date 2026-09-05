@@ -125,7 +125,11 @@ svg {
 }
 
 .encore-internal-color-text-subdued {
-  color: var(--spice-subtext) !important;
+  color: var(--spice-player-icon) !important;
+}
+
+.encore-internal-color-text-base {
+  color: var(--spice-player-icon) !important;
 }
 
 .main-trackList-trackListRow.q8suB2R_XkoUyIeZ,
@@ -149,7 +153,7 @@ svg {
 }
 .main-trackList-rowSubTitle,
 .main-cardSubtitle-cardSubtitle {
-  opacity: 0.7 !important;
+  opacity: 0.7;
   font-weight: 400 !important;
 }
 
@@ -167,6 +171,14 @@ svg {
   box-shadow: var(--m3-elev-1) !important;
   border: 1px solid var(--m3-outline-variant) !important;
   transition: box-shadow var(--m3-duration-medium) var(--m3-easing-standard) !important;
+}
+
+.main-home-filterChipsSection {
+  background: var(--background-elevated-base) !important;
+}
+
+.main-home-filterChipsSection.fzMaM8folMIckYG2:after {
+  background: transparent !important;
 }
 
 .Root__nav-bar,
@@ -249,8 +261,6 @@ svg {
 .search-searchCategory-carouselButton:hover {
   background: var(--spice-card) !important;
 }
-
-
 
 .view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-imageWrapper {
   box-shadow: none !important;
@@ -366,7 +376,7 @@ svg {
   padding: 8px 16px !important;
   width: 140px !important;
 
-  opacity: 0 !important;
+  opacity: 0;
   visibility: hidden !important;
   pointer-events: none !important;
   transform: translate(-50px, -34px) scale(0.85) !important;
@@ -382,7 +392,7 @@ svg {
 
 .main-nowPlayingBar-volumeBar:hover .volume-bar__slider-container,
 .volume-bar__slider-container:hover {
-  opacity: 1 !important;
+  opacity: 1;
   visibility: visible !important;
   pointer-events: auto !important;
   transform: translate(-50px, -40px) scale(1) !important;
@@ -404,7 +414,7 @@ svg {
   justify-content: center !important;
   align-items: center !important;
   height: 24px !important;
-  padding-inline: 8px 12px !important;
+  padding: 8px 12px !important;
   display: flex !important;
   position: relative !important;
   background-color: rgba(var(--spice-rgb-button), 0.1) !important;
@@ -477,8 +487,24 @@ svg {
 }
 .jHqD4CkJSTwpZihD {
   background: var(--spice-card) !important;
+  padding: 12px !important;
+  border-radius: var(--section-border-radius);
 }
 
+.JO5DuTPjVVoBxIKN {
+  background-color: #00000060 !important;
+}
+
+.UaFGUZb384McvxOx {
+  background-color: var(--spice-highlight) !important;
+  color: var(--background-elevated-base) !important;
+}
+.EU1ylDKh7s2oMU0g {
+  background-color: transparent !important;
+}
+.VwcQJ4Zsf0JKD3Ls {
+  background-color: transparent !important;
+}
 .main-playPauseButton-button:active {
   transform: scale(0.96) !important;
 }
@@ -574,14 +600,14 @@ button[class*="filter"]:hover,
 
 .main-card-PlayButtonContainer {
   transform: translateY(8px) !important;
-  opacity: 0 !important;
+  opacity: 0;
   transition:
     transform var(--m3-duration-medium) var(--m3-easing-emphasized),
     opacity var(--m3-duration-short) ease !important;
 }
 .main-card-card:hover .main-card-PlayButtonContainer {
   transform: translateY(0) !important;
-  opacity: 1 !important;
+  opacity: 1;
 }
 
 .main-entityHeader-backgroundColor,
@@ -673,6 +699,37 @@ button[class*="filter"]:hover,
   box-shadow: var(--m3-elev-4) !important;
 }
 
+.fuq9616CQ8Fhz6n6.yiy_EezkGycfPvS3
+  .main-nowPlayingView-canvasVisualEnhancement:before {
+  background: linear-gradient(
+    #12121200 0%,
+    #12121200 30% 55%,
+    #12121200 72%,
+    #00000000 90%
+  ) !important;
+}
+
+.main-nowPlayingView-canvasVisualEnhancement:before {
+  background: linear-gradient(
+    #121212d9 0%,
+    #12121200 30% 80%,
+    #121212cc 93.25%,
+    #00000000 100%
+  ) !important;
+}
+
+.main-nowPlayingView-canvasVisualEnhancement:after {
+  background: linear-gradient(
+    #121212a1 0%,
+    #12121287 30% 70%,
+    #00000000 95%
+  ) !important;
+}
+
+.pHNOePN5RT09utW9 .g3QSV3tq49ScV2jX {
+  box-shadow: 0px 6px 7px 0.2px rgba(var(--spice-rgb-player-icon), 0.1) !important;
+}
+
 #history-tab {
   border-radius: var(--m3-radius-small) !important;
 }
@@ -710,7 +767,7 @@ button[class*="filter"]:hover,
 }
 
 .ngY378uYekSqU8ij .znTd53DrNIcJnJvv {
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
 .BEeVmHj340c0PYHe {
@@ -761,6 +818,84 @@ button[class*="filter"]:hover,
 .encore-inverted-light-set.e-10810-button-icon-only--small {
   width: 48px !important;
   height: 48px !important;
+#Desktop_PanelContainer_Id
+  > div
+  > div.main-nowPlayingView-mainContainer.l5xRM2jngMo7LJO4.main-actionBar-ActionBarContainer
+  > div
+  > div
+  > div
+  > div.main-nowPlayingView-section.main-nowPlayingView-credits
+  > div
+  > div.e-10810-legacy-box.e-10810-legacy-box--naked.e-10810-legacy-box--interactive.e-10810-legacy-box--padding-inline-start-custom.e-10810-legacy-box--padding-inline-end-custom.e-10810-legacy-box--padding-block-start-custom.e-10810-legacy-box--padding-block-end-custom.e-10810-legacy-box--hover-custom.e-10810-legacy-box--min-size.e-10810-legacy-list-row.main-nowPlayingView-creditsFirstGroup {
+  --box-hover-background-color: rgba(
+    var(--spice-rgb-text),
+    var(--m3-state-hover)
+  ) !important;
+}
+
+#Desktop_PanelContainer_Id
+  > div
+  > div.main-nowPlayingView-mainContainer.l5xRM2jngMo7LJO4.main-actionBar-ActionBarContainer
+  > div
+  > div
+  > div
+  > div.main-nowPlayingView-section.main-nowPlayingView-queue
+  > ul
+  > li
+  > div {
+  --box-hover-background-color: rgba(
+    var(--spice-rgb-text),
+    var(--m3-state-hover)
+  ) !important;
+}
+
+.h0PQ8sOpdOAqPvpi:hover {
+  background-color: rgba(
+    var(--spice-rgb-text),
+    var(--m3-state-hover)
+  ) !important;
+}
+
+.main-trackInfo-artists a:link,
+.main-trackInfo-artists a:visited {
+  color: var(--spice-subtext) !important;
+}
+
+.Z557o5iO1x0aSAXt:not(:hover):not(:focus-within) a {
+  color: var(--spice-subtext) !important;
+}
+
+.wskqaMF_9vIdCfEN {
+  color: var(--spice-subtext) !important;
+}
+
+.HFowbNOgNPgtZSE4 {
+  box-shadow: 0px 6px 7px 0.2px rgba(var(--spice-rgb-player-icon), 0.1) !important;
+}
+
+.e-10810-legacy-box--interactive.e-10810-legacy-box--contrasting:hover,
+.e-10810-legacy-box--interactive:hover:after {
+  background-color: rgba(
+    var(--spice-rgb-text),
+    var(--m3-state-hover)
+  ) !important;
+}
+
+.e-10810-legacy-box--tinted.e-10810-legacy-box--interactive:hover:after {
+  background-color: rgba(
+    var(--spice-rgb-text),
+    var(--m3-state-hover)
+  ) !important;
+}
+
+.e-10810-legacy-box--interactive {
+  --animation-speed: 100ms !important;
+  --animation-ease: 1s !important;
+  --bg-inset-change-press: -4px !important;
+}
+
+.x-entityImage-imageContainer {
+  box-shadow: none !important;
 }
 
 /* VISUALIZER STYLING */
