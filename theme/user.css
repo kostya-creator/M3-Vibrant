@@ -664,9 +664,17 @@ button[class*="filter"]:hover,
   background: rgba(var(--spice-rgb-text), 0.38) !important;
 }
 
+/* Eqlizer Color Change */
+
 .main-trackList-rowMarker img {
   filter: grayscale(1) brightness(0.8) !important;
 }
+
+.bUVkyYuHPJ19V664vzfA {
+  filter: grayscale(1) brightness(0.8) !important;
+}
+
+
 
 .main-trackList-trackListRow {
   border-radius: var(--m3-radius-medium) !important;
