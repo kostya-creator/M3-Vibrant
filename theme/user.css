@@ -353,7 +353,7 @@ svg {
   position: relative !important;
 }
 
-.fLG2qkNam8uQwEyN {
+.PRydOIAjJUGRdKm8piwY {
   flex: 0 1 auto !important;
 }
 
@@ -422,6 +422,10 @@ svg {
   font-weight: 500 !important;
 }
 
+.encore-bright-accent-set {
+  justify-content: center !important;
+}
+
 .encore-text-body-small-bold {
   color: var(--spice-subtext);
   font-weight: 600;
@@ -451,13 +455,13 @@ svg {
 
 /* CONTROLS AND BUTTONS */
 
-.main-playButton-PlayButton .e-10810-button-primary__inner {
+.main-playButton-PlayButton .e-10860-button-primary__inner {
   background-color: var(--spice-play-button) !important;
   border-radius: 100% !important;
   transition: background-color var(--m3-duration-medium) ease !important;
 }
 
-.e-10810-button-primary__inner:hover {
+.e-10860-button-primary__inner:hover {
   background-color: var(--spice-play-button-hover) !important;
 }
 
@@ -660,6 +664,10 @@ button[class*="filter"]:hover,
   background: rgba(var(--spice-rgb-text), 0.38) !important;
 }
 
+.main-trackList-rowMarker img {
+  filter: grayscale(1) brightness(0.8) !important;
+}
+
 .main-trackList-trackListRow {
   border-radius: var(--m3-radius-medium) !important;
   transition: background-color var(--m3-duration-short) ease !important;
@@ -774,49 +782,6 @@ button[class*="filter"]:hover,
   box-shadow: 0px 6px 7px 0.2px rgba(var(--spice-rgb-player-icon), 0.1) !important;
 }
 
-/* ARTIST DISCOGRAPHY STYLING */
-.artist-artistDiscography-headerContainer {
-  margin: 0 -23px !important;
-  padding: 40px !important;
-}
-
-.artist-artistDiscography-topBarScrolled {
-  background-color: var(--spice-highlight) !important;
-}
-
-.artist-artistDiscography-firstAlbum {
-  margin-top: 128px !important;
-}
-
-.main-entityHeader-image.artist-artistDiscography-headerImage {
-  width: 190px !important;
-  height: 190px !important;
-}
-
-.artist-artistDiscography-headerTitle {
-  font-weight: 900 !important;
-  font-size: 60px !important;
-  letter-spacing: 0.1px !important;
-
-  max-width: 700px !important;
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-}
-
-.main-entityHeader-metaData {
-  margin-top: -4px !important;
-}
-
-.main-entityHeader-metaDataTextSubdued {
-  font-size: 15px !important;
-}
-
-/*PLAY-BUTTON ON DISCOGRAPHY*/
-.encore-inverted-light-set.e-10810-button-icon-only--small {
-  width: 48px !important;
-  height: 48px !important;
-}
 #Desktop_PanelContainer_Id
   > div
   > div.main-nowPlayingView-mainContainer.l5xRM2jngMo7LJO4.main-actionBar-ActionBarContainer
@@ -897,9 +862,26 @@ button[class*="filter"]:hover,
   box-shadow: none !important;
 }
 
+/* Library Styling */
+
+.LaH7CXkEWfXVT37wbc2Y {
+  display: none;
+}
+
+/* Liked Songs Styling */ 
+
+.M7ECcaA17LC8UqL2GKVD {
+  display: none !important;
+}
+
 /* Artist Styling */
 
 /* = Discography = */
+
+.P91StDUW8iiKx4vRlEpx {
+  padding: 32px !important;
+  border-radius: var(--m3-radius-large) !important;
+}
 .artist-artistDiscography-headerContainer {
   padding: 24px !important;
   align-items: center !important;
@@ -908,12 +890,10 @@ button[class*="filter"]:hover,
 
 .artist-artistDiscography-topBar.artist-artistDiscography-topBarScrolled {
   padding: 24px 12px !important;
-  box-shadow: 0px 6px 7px 0.2px rgba(var(--spice-rgb-player-icon), 0.1) !important;
 }
 
 .main-entityHeader-shadow {
   border-radius: var(--m3-radius-large) !important;
-  box-shadow: 0px 0px 4px 1px rgba(var(--spice-rgb-player-icon), 0.2) !important;
 }
 
 /* VISUALIZER STYLING */
@@ -925,12 +905,14 @@ button[class*="filter"]:hover,
 
 /* REMOVING GRADIENTS */
 
-.main-entityHeader-backgroundColor {
+.dqwQhIudKoD98eWJzj5E {
   display: none !important;
 }
-.main-actionBarBackground-background {
-  display: none !important;
+
+.yKCAvGVbd6TgspV2YaTf.p21x4R9OyvxWhr9old3h:after {
+  background-color: var(--spice-sidebar) !important;
 }
+
 .main-home-homeHeader {
   display: none !important;
 }
